@@ -1,0 +1,81 @@
+版本信息
+	id
+	系统名称
+	版本号
+	预计下发时间
+	第一次冻结时间
+	第一次回归时间
+	第二次冻结时间
+	第二次回归时间
+	第三次冻结时间
+	第三次回归时间
+ 	需求数量
+	归属组别
+	版本负责人
+	备注
+
+需求信息
+	id
+	归属版本id
+	需求名称
+	需求OA号
+	tfs编号
+	tfs链接
+	需求编写人员
+	需求开发人员
+	开发进度
+	是否提测
+	需求提测时间
+	测试人员
+	复测人员
+
+
+人员信息
+	id
+	姓名
+	岗位
+	联系电话
+	所属组别
+	职位
+
+
+
+
+isFirstPage
+:
+true
+isLastPage
+:
+false
+list
+:
+Array(3)
+pageNum
+:
+1
+pageSize
+:
+3
+pages
+:
+2
+total
+:
+4
+
+cityName
+:
+"温岭市"
+description
+:
+"BYSocket 的家在温岭。"
+id
+:
+1
+provinceId
+:
+1
+	
+
+
+
