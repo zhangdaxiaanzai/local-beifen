@@ -24,6 +24,7 @@
 		$ git push origin master
 	注意：此时可能需要你输入你git的账户名和密码
 
-	11.
+	11.如果有未更新的文件应该先git pull --rebase origin master
+				   git pull origin master
 	
 	
