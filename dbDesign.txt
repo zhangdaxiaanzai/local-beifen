@@ -40,42 +40,26 @@
 
 
 
+SET FOREIGN_KEY_CHECKS=0;
 
-isFirstPage
-:
-true
-isLastPage
-:
-false
-list
-:
-Array(3)
-pageNum
-:
-1
-pageSize
-:
-3
-pages
-:
-2
-total
-:
-4
+-- ----------------------------
+-- Table structure for user
+-- ----------------------------
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `loginName` varchar(225) NOT NULL,
+  `name` varchar(225) DEFAULT NULL,
+  `pwd` varchar(225) NOT NULL,
+  `registDate` datetime NOT NULL,
+  `attribute` char(1) DEFAULT NULL,
+  `phone` varchar(22) DEFAULT NULL,
+  `email` varchar(30) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
 
-cityName
-:
-"温岭市"
-description
-:
-"BYSocket 的家在温岭。"
-id
-:
-1
-provinceId
-:
-1
-	
+
+
 
 
 
