@@ -27,4 +27,24 @@
 	11.如果有未更新的文件应该先git pull --rebase origin master
 				   git pull origin master
 	
+	关联本地目录到远程库：git remote add origin git@server-name:path/repo-name.git
+
+	git reflog：查看所有提交的log，可以查看每次变动的版本号，方便查阅
+	cat xxxx：xxxxx指的是文件全名，包括后缀，此命令查看文件内容
+	git reset --hard HARD^：git的管理用的是一个HARD指针，指向的提交节点就是当前版本，这句是指回滚到上次提交的版本
+				git reset --hard file
+				这里的xxxxx指的是版本号，通过此命令可以回滚到指定版本
+        git diff HEAD -- file：查看最新版本的xx文件与xx文件的对比
+
+	git reset HEAD file：把暂缓区的修改撤销掉（unstage），重新放回工作区
+
+	git checkout -- file：丢弃工作区的修改
+
+	git rm：从git 工作区中删除文件
+
 	
+
+
+
+
+
